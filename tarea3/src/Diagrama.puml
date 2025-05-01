@@ -1,0 +1,21 @@
+@startuml
+class Ciclista{
++ nombre : String
++ edad : int
++ km : Double
++ mostrarInformaciónCiclista():void
++ actualizarkm(kmNuevo: Double):void
++ calcularPromedio() : Double
+}
+
+object ciclista{
++ nombre = "Egan Bernal"
++ edad = 26
++ km = 4600
+}
+
+Ciclista -- ciclista
+
+
+
+@enduml
